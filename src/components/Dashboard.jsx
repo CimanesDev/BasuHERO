@@ -9,8 +9,8 @@ import NewsSection from './NewsSection';
 
 const Dashboard = ({ user }) => {
   const [activeQuests] = useState([
-    { id: 1, type: 'Plastics', completed: 12, total: 12 },
-    { id: 2, type: 'Biodegradable', completed: 6, total: 12 },
+    { id: 1, type: 'Plastics', completed: 8, total: 12 },
+    { id: 2, type: 'Biodegradable', completed: 4, total: 12 },
   ]);
 
   const [achievements] = useState([
@@ -19,7 +19,7 @@ const Dashboard = ({ user }) => {
   ]);
 
   const [newsItems] = useState([
-    { id: 1, title: 'You joined a cleanup drive!', date: '2 days ago', read: false },
+    { id: 1, title: 'Cleanup drive 2025!', date: '2 days ago', read: false },
   ]);
 
   return (

@@ -5,7 +5,7 @@ import avatar1 from '../assets/avatars/2x2.jpg';
 
 const avatarOptions = [
   { id: 1, src: avatar1 },
-  { id: 2, src: avatar1 }, // Replace with actual different avatars if available
+  { id: 2, src: avatar1 },
   { id: 3, src: avatar1 },
   { id: 4, src: avatar1 }
 ];
