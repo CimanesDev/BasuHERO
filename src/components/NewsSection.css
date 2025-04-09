@@ -1,0 +1,70 @@
+/* components/NewsSection.css */
+.news-section {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .news-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .news-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+
+  
+  .news-content {
+    flex: 1;
+  }
+  
+  .news-content h3 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .news-date {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
+  .news-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .unread-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+  }
+  
+  .expand-icon {
+    font-size: 0.7rem;
+    color: #888;
+  }
+  
+  .news-item.read {
+    opacity: 0.7;
+  }
+  
+  .no-news {
+    text-align: center;
+    color: #888;
+    padding: 20px 0;
+  }

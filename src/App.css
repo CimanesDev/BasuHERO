@@ -1,0 +1,69 @@
+/* App.css */
+:root {
+  --primary-color: #b0f768;
+  --secondary-color: #201b1f;
+  --background-color: #f4f2ff;
+  --text-light: #FFFFFF;
+  --text-dark: #201b1f;
+  --gray-light: #E0E0E0;
+}
+
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.button-large {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-more-link {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}

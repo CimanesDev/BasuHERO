@@ -1,0 +1,139 @@
+/* components/Onboarding.css */
+.onboarding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--secondary-color);
+    background-image: linear-gradient(45deg, rgba(176, 247, 104, 0.1), rgba(32, 27, 31, 0.2));
+    padding: 20px;
+  }
+  
+  .onboarding-container {
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .onboarding-header {
+    text-align: center;
+  }
+  
+  .onboarding-header h1 {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .onboarding-header p {
+    color: #666;
+  }
+  
+  .onboarding-content {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .onboarding-step {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .onboarding-step h2 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  
+  .onboarding-step p {
+    color: #333;
+  }
+
+  .onboarding-input {
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .avatar-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .avatar-option {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 4px solid transparent;
+  }
+  
+  .avatar-option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .avatar-option.selected {
+    border-color: var(--primary-color);
+    transform: scale(1.1);
+  }
+  
+  .avatar-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .avatar-preview h3{
+    color: #333;
+  }
+  
+  .avatar-preview img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+  }
+  
+  .onboarding-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .progress-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .progress-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  .progress-dot.active {
+    background-color: var(--primary-color);
+    transform: scale(1.2);
+  }
