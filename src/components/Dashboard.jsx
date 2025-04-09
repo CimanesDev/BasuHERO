@@ -11,13 +11,11 @@ const Dashboard = ({ user }) => {
   const [activeQuests] = useState([
     { id: 1, type: 'Plastics', completed: 12, total: 12 },
     { id: 2, type: 'Biodegradable', completed: 6, total: 12 },
-    { id: 3, type: 'Non-Biodegradable', completed: 3, total: 12 },
   ]);
 
   const [achievements] = useState([
     { id: 1, name: 'Be on the Leaderboard', icon: '🏆', unlocked: true },
     { id: 2, name: 'Convert Trash to Cash', icon: '💰', unlocked: true },
-    { id: 3, name: 'Coming Soon', icon: '🔜', unlocked: false },
   ]);
 
   const [newsItems] = useState([
